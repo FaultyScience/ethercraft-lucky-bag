@@ -1,0 +1,23 @@
+.BagReport {
+  margin: 0 15% 0 17%;
+  text-align: left;
+  font-size: 27px;
+}
+
+.BagReport p {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  width: 170px;
+}
+
+@media (max-width: 620px) {
+
+  .BagReport {
+    font-size: 18px;
+  }
+
+  .BagReport p {
+    width: 120px;
+  }
+}

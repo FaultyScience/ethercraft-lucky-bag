@@ -1,0 +1,58 @@
+.Transactions {
+  margin: 100px auto 0 auto;
+  border-width: 8px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom right, #ffd700, #ff8c00, #ffd700) 30 40 30%;
+  padding: 10px 0 10px 0;
+  width: 600px;
+  color: white;
+  background-image: url("../../assets/images/section-background.png");
+  text-align: left;
+}
+
+.Transactions h1 {
+  margin-top: 0;
+  font-size: 45px;
+  text-align: center;
+}
+
+.Transactions p {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 0;
+  width: 530px;
+  font-size: 22px;
+}
+
+.TxImg {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-left: 8px;
+  border-radius: 2px;
+  vertical-align: text-bottom;
+}
+
+@media (max-width: 620px) {
+
+  .Transactions {
+    width: 360px;
+  }
+
+  .Transactions h1 {
+    font-size: 36px;
+  }
+
+  .Transactions p {
+    width: 336px;
+    margin: 0 2px 0 5px;
+    font-size: 14px;
+  }
+
+  .TxImg {
+    margin-left: 3px;
+    height: 8px;
+    width: 8px;
+    vertical-align: baseline;
+  }
+}

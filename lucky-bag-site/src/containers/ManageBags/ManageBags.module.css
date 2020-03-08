@@ -1,0 +1,26 @@
+.ManageBags {
+  margin: 100px auto 0 auto;
+  border-width: 8px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom right, #ffd700, #ff8c00, #ffd700) 30 40 30%;
+  padding: 10px 0 10px 0;
+  width: 600px;
+  color: white;
+  background-image: url("../../assets/images/section-background.png");
+}
+
+.ManageBags h1 {
+  margin-top: 0;
+  font-size: 45px;
+}
+
+@media (max-width: 620px) {
+
+  .ManageBags {
+    width: 360px;
+  }
+
+  .ManageBags h1 {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,19 @@
+.ErrorMsg {
+  font-size: 18px;
+}
+
+.ErrorMsg a {
+  cursor: url("../../assets/images/point.png") 10 0, auto;
+}
+
+.ErrorMsg a:visited {
+  color: blue;
+}
+
+@media (max-width: 620px) {
+
+  .ErrorMsg {
+    margin: 16px 10px;
+    font-size: 16px;
+  }
+}

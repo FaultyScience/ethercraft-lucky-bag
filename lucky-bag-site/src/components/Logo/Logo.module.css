@@ -1,0 +1,13 @@
+.logoImg {
+  margin-top: 15px;
+  cursor: url("../../assets/images/point.png") 10 0, auto;
+  vertical-align: middle;
+}
+
+@media (max-width: 620px) {
+
+  .logoImg {
+    width: 380px;
+    height: 57px;
+  }
+}

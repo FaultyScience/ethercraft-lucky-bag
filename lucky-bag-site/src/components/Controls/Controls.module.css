@@ -1,0 +1,25 @@
+.Controls button {
+  margin: 0 3% 0 3%;
+  width: 100px;
+  padding: 10px;
+  font-family: "8-Bit Madness";
+  font-size: 18px;
+  text-align: center;
+  image-rendering: pixelated;
+  color: buttontext;
+  background-color: buttonface;
+  border-color: buttonface;
+  border-width: 2px;
+  border-style: outset;
+  cursor: url("../../assets/images/point.png") 10 0, auto;
+  overflow: visible;
+}
+
+@media (max-width: 620px) {
+
+  .Controls button {
+    width: 75px;
+    padding: 8px;
+    font-size: 14px;
+  }
+}
